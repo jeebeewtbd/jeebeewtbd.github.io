@@ -1,60 +1,74 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
     margin: 0;
     padding: 0;
-    background-color: #000000;
-    color: #000000;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffoto.wuestenigel.com%2Fwp-content%2Fuploads%2Fapi2%2Fsummer-beauty-spa-treatments-for-facial-skin-care-cosmetology.jpeg&f=1&nofb=1&ipt=1b92864b1ee62a645cadf36a17da7d91ebcb2456317b3a0cece263e49e7b9a2a&ipo=images");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply; /* Blend the image with the gradient */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.8)), url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffoto.wuestenigel.com%2Fwp-content%2Fuploads%2Fapi2%2Fsummer-beauty-spa-treatments-for-facial-skin-care-cosmetology.jpeg&f=1&nofb=1&ipt=1b92864b1ee62a645cadf36a17da7d91ebcb2456317b3a0cece263e49e7b9a2a&ipo=images"); /* Add a semi-transparent black gradient */
 }
 
+/* Rest of your CSS remains the same */
 header {
-    background-color: #000000;
-    color: #fff;
-    padding: 20px;
+    background-color: #8fbc8f00; /* Medium green header */
+    color: #f947ff;
     text-align: center;
-    font-family: 'Eagle Lake';
+    padding: 20px 0;
 }
 
-nav {
-    background-color: #6E2594;
-    padding: 10px;
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-main {
-    padding: 20px;
+section h2 {
+    color: #00ff6e; /* Slightly lighter green for headings */
+    border-bottom: 2px solid #2e8b57;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 article {
-    background-color: #98e6a7;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+article h3 {
+    color: #6dff40; /* Dark green for article headings */
 }
 
 footer {
-    background-color: #2f113f;
-    color: #59A96A;
+    background-color: #baff7a00;
+    color: #f0f8f0;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 10px 0;
+}
+
+a {
+    color: #52d6b5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Additional CSS for the new design */
+
+/* About section */
+.about-image {
+    float: left;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+/* Text overlay on background image */
+h1, h2, p {
+    color: #d7ffcb; /* White text on background image */
+}
+
+h1, h2{
+    font-family: cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
